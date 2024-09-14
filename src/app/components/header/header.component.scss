@@ -1,0 +1,75 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002f5c;
+    padding: 20px 30px;
+}
+
+.navbar-logo img {
+    height: 50px;
+    /* Adjust logo size */
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    /* Allow center alignment */
+    margin: 0 40px;
+    /* Adds space between links and other elements */
+}
+
+.navbar-links li {
+    margin: 0 15px;
+}
+
+.navbar-links a {
+    color: #eecd69;
+    /* Yellow color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links a {
+    color: #eecd69;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-links a.active {
+    color: #ffcc33;
+    border-bottom: 2px solid #ffcc33;
+}
+
+.search-bar {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-icon {
+    margin-left: -30px;
+    /* Fix icon position */
+}
+
+.flag-icon {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.donate-btn {
+    background-color: #ff3366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}

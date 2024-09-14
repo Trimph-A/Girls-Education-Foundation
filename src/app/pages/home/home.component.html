@@ -1,0 +1,212 @@
+<div class="carousel-container">
+  <!-- Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <img src="/assets/images/banner1.jpg" class="d-block w-100" alt="Empowering Girls, Transforming Futures">
+        <div class="carousel-caption">
+          <h2>Empowering Girls, Transforming Futures</h2>
+          <a href="/donate" class="cta-button">Donate Now</a>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <img src="/assets/images/banner2.jpg" class="d-block w-100" alt="Join Us to Make a Difference">
+        <div class="carousel-caption">
+          <h2>Join Us to Make a Difference</h2>
+          <a href="/get-involved" class="cta-button">Get Involved</a>
+        </div>
+      </div>
+    </div>
+    <!-- Arrows -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<section class="donation-section">
+  <div class="donation-content">
+    <h2>Girls Around The World Need Your Support.</h2>
+    <p>Help us change their lives.</p>
+    <a href="/donate" class="donate-now-button">Donate Now</a>
+  </div>
+  <div class="donation-image">
+    <img src="/assets/child-image.jpg" alt="Child">
+    
+  </div>
+</section>
+
+<!-- Sticky Donate Button -->
+<a href="/donate" class="sticky-donate-button">Donate Now</a> 
+
+
+<section class="mission-statement">
+  <div class="mission-content">
+    <h2>Mission Statement</h2>
+    <p class="mission-description">
+      Our mission is to empower the emotional and life-skills capabilities of underserved girls and young women by removing barriers and biases to education and providing access to opportunities.
+    </p>
+    <p class="mission-detail">
+      We work with grassroots organizations to provide girls with the knowledge, resources, and skills they need to grow healthy and access meaningful educational opportunities in a safe and sustainable environment. By investing in girls' education, we contribute to a more stable, resilient society.
+    </p>
+  </div>
+  <div class="mission-video">
+    <h3>2023 SDG Summit: Shaping the Future of Sustainable Development</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YourVideoID" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section class="statistics-section">
+  <h2>Girls and Education</h2>
+  <div class="statistics-container">
+    <div class="stat-item">
+      <h3>773 mln</h3>
+      <p>adults are ILLITERATE globally</p>
+    </div>
+    <div class="stat-item">
+      <h3>2/3</h3>
+      <p>of them are women (approximately 515 mln)</p>
+    </div>
+    <div class="stat-item">
+      <h3>258 mln</h3>
+      <p>children, adolescents, and youth (17%) are OUT OF SCHOOL</p>
+    </div>
+    <div class="stat-item">
+      <h3>130 mln</h3>
+      <p>girls between the age of 6 and 17 are OUT OF SCHOOL</p>
+    </div>
+  </div>
+</section>
+
+<section class="info-cards">
+  <div class="card">
+    <div class="card-content">
+      <i class="fa fa-book icon"></i>
+      <h3>Learn More</h3>
+      <p>We believe in quality education to foster socioeconomic mobility.</p>
+      <button (click)="openModal('learnMore')">Learn More</button>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-content">
+      <i class="fa fa-eye icon"></i>
+      <h3>Vision</h3>
+      <p>Empowering underserved girls through education and mentorship.</p>
+      <button (click)="openModal('vision')">Vision</button>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-content">
+      <i class="fa fa-handshake icon"></i>
+      <h3>Core Commitments</h3>
+      <p>Committed to providing resources and opportunities to girls.</p>
+      <button (click)="openModal('commitments')">Core Commitments</button>
+    </div>
+  </div>
+</section>
+
+<!-- Modal Template -->
+<div *ngIf="modalOpen" class="modal">
+  <div class="modal-content">
+    <h2>{{modalTitle}}</h2>
+    <p>{{modalContent}}</p>
+    <button (click)="closeModal()">Close</button>
+  </div>
+</div>
+
+
+<!-- Success Stories Section -->
+<!-- Success Stories Section -->
+<section class="success-stories">
+  <h2>Success Stories</h2>
+  <div class="cards-container">
+    <div class="card">
+      <div class="card-image">
+        <img src="/assets/story1.jpg" alt="Success Story 1">
+      </div>
+      <div class="card-content">
+        <p>"This foundation gave me the opportunity to go to school and follow my dreams."</p>
+        <h4>- Sarah, Scholarship Recipient</h4>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <img src="/assets/story2.jpg" alt="Success Story 2">
+      </div>
+      <div class="card-content">
+        <p>"Thanks to this foundation, I can continue my education without worrying about fees."</p>
+        <h4>- Amina, School Support Program</h4>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <img src="/assets/story3.jpg" alt="Success Story 3">
+      </div>
+      <div class="card-content">
+        <p>"I was able to finish school with the help of their mentorship program."</p>
+        <h4>- Maria, Mentorship Program</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="ways-to-help">
+  <h2>Ways To Help?</h2>
+  <div class="help-cards">
+    <div class="card">
+      <img src="/assets/individual-supporters-icon.png" alt="Individual Supporters">
+      <h3>Individual Supporters</h3>
+      <p>Girls Education Foundation welcomes the support of individual donors.</p>
+    </div>
+    <div class="card">
+      <img src="/assets/corporate-partners-icon.png" alt="Corporate Partners">
+      <h3>Corporate Partners</h3>
+      <p>We welcome corporate support in the form of donations.</p>
+    </div>
+    <div class="card">
+      <img src="/assets/program-partners-icon.png" alt="Program Partners">
+      <h3>Program Partners</h3>
+      <p>We welcome organizations to partner on specific programs.</p>
+    </div>
+    <div class="card">
+      <img src="/assets/individual-philanthropy-icon.png" alt="Individual Philanthropy">
+      <h3>Individual Philanthropy</h3>
+      <p>Your support is an investment in the future of girls.</p>
+    </div>
+  </div>
+  <button class="donate-button">Donate</button>
+</section>
+
+
+<section class="partners-section">
+  <h2>Our Partners</h2>
+  <div class="partners-slider">
+    <div class="partner-slide">
+      <img src="/assets/partner1.png" alt="Partner 1">
+    </div>
+    <div class="partner-slide">
+      <img src="/assets/partner2.png" alt="Partner 2">
+    </div>
+    <div class="partner-slide">
+      <img src="/assets/partner3.png" alt="Partner 3">
+    </div>
+    <!-- Add more slides as needed -->
+  </div>
+</section>
+
+<!-- Social Media Sticky Sidebar -->
+<div class="social-sidebar">
+  <a href="https://facebook.com" class="social-icon"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com" class="social-icon"><i class="fa fa-twitter"></i></a>
+  <a href="https://instagram.com" class="social-icon"><i class="fa fa-instagram"></i></a>
+  <a href="https://linkedin.com" class="social-icon"><i class="fa fa-linkedin"></i></a>
+</div>
+
+

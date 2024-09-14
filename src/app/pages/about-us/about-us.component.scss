@@ -1,0 +1,75 @@
+.about-us {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.banner {
+    background: #002f5c;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us .unique-sections div {
+    background-color: #e8f4fc;
+    /* Light blue background */
+    border-left: 5px solid #004a8d;
+    /* Dark blue border on the left */
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-us .unique-sections div:hover {
+    transform: translateY(-10px);
+    /* Slight raise effect on hover */
+}
+
+.read-more {
+    display: block;
+    margin-top: 10px;
+    color: #004a8d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.team {
+    margin: 50px 0;
+}
+.team h2{background: #002f5c;
+    color: white;
+    padding: 50px 0;
+    text-align: center;}
+
+.team-cards-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #eecd69;
+    border-radius: 10px;
+    text-align: center;
+    width: 18%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.impact {
+    background-color: #eecd69;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+}
